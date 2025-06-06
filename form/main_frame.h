@@ -4,11 +4,11 @@
 #include "base/user/simple/main_frame.h"
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_FORM main_frame :
+   class CLASS_DECL_CA2_LOWLUDS_AI_FORM main_frame :
       virtual public simple_main_frame
    {
    public:

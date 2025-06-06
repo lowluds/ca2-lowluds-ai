@@ -134,7 +134,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4324BA4A-FAE3-42FE-8A09-1FBA4BC0D688}</ProjectGuid>
     <Keyword>DynamicLibrary</Keyword>
-    <ProjectName>app_simple_form</ProjectName>
+    <ProjectName>ca2_lowluds_ai_form</ProjectName>
     <RootNamespace>simple_form_simple_form</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>

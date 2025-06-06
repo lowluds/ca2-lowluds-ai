@@ -10,7 +10,7 @@
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
-    <ProjectName>uwp_app_simple_form</ProjectName>
+    <ProjectName>uwp_ca2_lowluds_ai_form</ProjectName>
     <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -245,7 +245,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <PackageCertificateKeyFile>uwp_app_simple_form_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>uwp_ca2_lowluds_ai_form_TemporaryKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
@@ -749,7 +749,7 @@
     <None Include="..\_matter.zip">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\uwp_app_simple_form_TemporaryKey.pfx" />
+    <None Include="..\uwp_ca2_lowluds_ai_form_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package10.appxmanifest">
@@ -882,7 +882,7 @@
     <ProjectReference Include="..\..\..\app\folder_zip\u_folder_zip.vcxproj">
       <Project>{fc96f9e0-d65e-4286-95b1-f1ff4873dace}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\u_app_simple_form.vcxproj">
+    <ProjectReference Include="..\u_ca2_lowluds_ai_form.vcxproj">
       <Project>{4324ba4a-fae3-42fe-8a09-1fba4bc0d688}</Project>
     </ProjectReference>
   </ItemGroup>

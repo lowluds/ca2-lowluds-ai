@@ -11,7 +11,7 @@
 #include "base/user/user/tab_pane.h"
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 

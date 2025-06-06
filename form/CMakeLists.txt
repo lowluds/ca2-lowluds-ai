@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(app_simple_form CXX)
+project(ca2_lowluds_ai_form CXX)
 
 
 list(APPEND library_source

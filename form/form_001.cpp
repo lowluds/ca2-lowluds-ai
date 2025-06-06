@@ -12,7 +12,7 @@
 #include "aura/user/user/plain_edit.h"
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 
@@ -37,7 +37,7 @@ namespace app_simple_form
    //   m_pbuttonSend.release();
    //   m_pstillReceiver.release();
 
-   //   ::app_simple_form::form::destroy();
+   //   ::ca2_lowluds_ai_form::form::destroy();
 
 
    //}

@@ -1,13 +1,13 @@
 #include "framework.h"
-#define APPLICATION_NAMESPACE app_simple_form
+#define APPLICATION_NAMESPACE ca2_lowluds_ai_form
 #include "acme/inline/application/main.inl"
 
-// //app_simple_form::application g_app_simple_form__application;
+// //ca2_lowluds_ai_form::application g_ca2_lowluds_ai_form__application;
 
 // //int __implement()
 // //{
 // //
-// //   auto papp = ___new app_simple_form::application();
+// //   auto papp = ___new ca2_lowluds_ai_form::application();
 // //
 // //   int iExitCode = papp->__implement();
 // //
@@ -19,7 +19,7 @@
 // void application_main(::platform::system * psystem)
 // {
 
-//    app_simple_form::application application;
+//    ca2_lowluds_ai_form::application application;
 
 //    application.application_main();
 

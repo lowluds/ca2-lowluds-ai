@@ -23,7 +23,7 @@
     <Keyword>Android</Keyword>
     <ApplicationType>Android</ApplicationType>
     <ApplicationTypeRevision>3.0</ApplicationTypeRevision>
-    <ProjectName>lib_app_simple_form</ProjectName>
+    <ProjectName>lib_ca2_lowluds_ai_form</ProjectName>
     <RootNamespace>simple_form_simple_form</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
   </PropertyGroup>

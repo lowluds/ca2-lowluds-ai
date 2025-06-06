@@ -292,7 +292,7 @@ zip -r $(ProjectDir)_matter.zip app-core\_matter\hellomultiverse\*
     <None Include="_matter.zip" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="platform\windows\_app_simple_form.cpp" />
+    <ClCompile Include="platform\windows\_ca2_lowluds_ai_form.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

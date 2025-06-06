@@ -4,11 +4,11 @@
 #include "base/user/user/document.h"
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_FORM document :
+   class CLASS_DECL_CA2_LOWLUDS_AI_FORM document :
       public ::user::document
    {
    public:

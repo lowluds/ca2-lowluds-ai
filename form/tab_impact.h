@@ -5,11 +5,11 @@
 #include "aura/user/user/form_callback.h"
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_FORM tab_impact :
+   class CLASS_DECL_CA2_LOWLUDS_AI_FORM tab_impact :
       virtual public ::user::tab_impact,
       virtual public ::user::form_callback
    {

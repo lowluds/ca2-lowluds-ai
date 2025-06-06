@@ -22,7 +22,7 @@
 		9A50CC942B6CA9CA00FDB101 /* libios_unac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A50CC932B6CA9CA00FDB101 /* libios_unac.a */; };
 		9A50CC962B6CA9D200FDB101 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A50CC952B6CA9D200FDB101 /* UniformTypeIdentifiers.framework */; };
 		9A50CDF82B6CB88700FDB101 /* libios_archive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A50CDF72B6CB88700FDB101 /* libios_archive.a */; };
-		9AA203B82847FE5400A747A1 /* libios_app_simple_form.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A93B7522846ED0F005ACD11 /* libios_app_simple_form.a */; };
+		9AA203B82847FE5400A747A1 /* libios_ca2_lowluds_ai_form.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A93B7522846ED0F005ACD11 /* libios_ca2_lowluds_ai_form.a */; };
 		9AA203C32848068900A747A1 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA203C22848068800A747A1 /* CoreServices.framework */; };
 		9AA2F26C2847DC4E00A747A1 /* libios_acme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA2F2642847DC4E00A747A1 /* libios_acme.a */; };
 		9AA2F26E2847DC4F00A747A1 /* libios_acme_apple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA2F2652847DC4E00A747A1 /* libios_acme_apple.a */; };
@@ -139,21 +139,21 @@
 		};
 		9A93B74F2846ED0F005ACD11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A93B7492846ED0F005ACD11 /* app_simple_form.xcodeproj */;
+			containerPortal = 9A93B7492846ED0F005ACD11 /* ca2_lowluds_ai_form.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9AEB75A316F78DF10085103B;
-			remoteInfo = app_simple_form;
+			remoteInfo = ca2_lowluds_ai_form;
 		};
 		9A93B7512846ED0F005ACD11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A93B7492846ED0F005ACD11 /* app_simple_form.xcodeproj */;
+			containerPortal = 9A93B7492846ED0F005ACD11 /* ca2_lowluds_ai_form.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9AE24E8A1904CFFD001AEFFB;
-			remoteInfo = ios_app_simple_form;
+			remoteInfo = ios_ca2_lowluds_ai_form;
 		};
 		9A93B7532846ED0F005ACD11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A93B7492846ED0F005ACD11 /* app_simple_form.xcodeproj */;
+			containerPortal = 9A93B7492846ED0F005ACD11 /* ca2_lowluds_ai_form.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9AE24E991904CFFD001AEFFB;
 			remoteInfo = app_core_hellomultiverse_iosTests;
@@ -279,10 +279,10 @@
 		};
 		9AE0E1612B705E2500D4F550 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A93B7492846ED0F005ACD11 /* app_simple_form.xcodeproj */;
+			containerPortal = 9A93B7492846ED0F005ACD11 /* ca2_lowluds_ai_form.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 9AE24E891904CFFD001AEFFB;
-			remoteInfo = ios_app_simple_form;
+			remoteInfo = ios_ca2_lowluds_ai_form;
 		};
 		9AFC3EA42D1E70B800F05066 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -295,7 +295,7 @@
 
 /* Begin PBXFileReference section */
 		077A02081B4D5758001C85FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		078C352F1921758500354453 /* _ios_app_simple_form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _ios_app_simple_form.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078C352F1921758500354453 /* _ios_ca2_lowluds_ai_form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _ios_ca2_lowluds_ai_form.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078C35451921758600354453 /* ios_simple_form_simple_formTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_simple_form_simple_formTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B5903518866047002C6FEC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		9A0E4F032BF50014007C7253 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -330,7 +330,7 @@
 		9A93B72B2846ED0E005ACD11 /* imaging_coreimage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = imaging_coreimage.xcodeproj; path = "../../../../operating_system/operating_system-apple/imaging_coreimage/imaging_coreimage.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		9A93B7372846ED0F005ACD11 /* draw2d_quartz2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = draw2d_quartz2d.xcodeproj; path = "../../../../operating_system/operating_system-apple/draw2d_quartz2d/draw2d_quartz2d.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		9A93B7402846ED0F005ACD11 /* folder_zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = folder_zip.xcodeproj; path = ../../../app/folder_zip/folder_zip.xcodeproj; sourceTree = SOURCE_ROOT; };
-		9A93B7492846ED0F005ACD11 /* app_simple_form.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = app_simple_form.xcodeproj; path = ../app_simple_form.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9A93B7492846ED0F005ACD11 /* ca2_lowluds_ai_form.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ca2_lowluds_ai_form.xcodeproj; path = ../ca2_lowluds_ai_form.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9A93B7552846ED10005ACD11 /* crypto_openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = crypto_openssl.xcodeproj; path = ../../../app/crypto_openssl/crypto_openssl.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9A93B75E2846ED10005ACD11 /* database_sqlite3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = database_sqlite3.xcodeproj; path = ../../../app/database_sqlite3/database_sqlite3.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9A93B76D2846ED11005ACD11 /* write_text_quartz2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = write_text_quartz2d.xcodeproj; path = "../../../../operating_system/operating_system-apple/write_text_quartz2d/write_text_quartz2d.xcodeproj"; sourceTree = SOURCE_ROOT; };
@@ -416,7 +416,7 @@
 				9AF7615E1F84389000FDE7CC /* libsqlite3.tbd in Frameworks */,
 				9AF7615B1F84387700FDE7CC /* libiconv.tbd in Frameworks */,
 				9AA2F2782847DC5100A747A1 /* libapex_ios.a in Frameworks */,
-				9AA203B82847FE5400A747A1 /* libios_app_simple_form.a in Frameworks */,
+				9AA203B82847FE5400A747A1 /* libios_ca2_lowluds_ai_form.a in Frameworks */,
 				9AA2F26E2847DC4F00A747A1 /* libios_acme_apple.a in Frameworks */,
 				9AA2F2922847DCBF00A747A1 /* libios_base.a in Frameworks */,
 				9AF761551F84384500FDE7CC /* libz.tbd in Frameworks */,
@@ -442,7 +442,7 @@
 		9A5752A716AAE1D2000CC4EF = {
 			isa = PBXGroup;
 			children = (
-				9A93B7492846ED0F005ACD11 /* app_simple_form.xcodeproj */,
+				9A93B7492846ED0F005ACD11 /* ca2_lowluds_ai_form.xcodeproj */,
 				9A93B75E2846ED10005ACD11 /* database_sqlite3.xcodeproj */,
 				9A93B7552846ED10005ACD11 /* crypto_openssl.xcodeproj */,
 				9A93B7372846ED0F005ACD11 /* draw2d_quartz2d.xcodeproj */,
@@ -460,7 +460,7 @@
 		9A5752B316AAE1D2000CC4EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				078C352F1921758500354453 /* _ios_app_simple_form.app */,
+				078C352F1921758500354453 /* _ios_ca2_lowluds_ai_form.app */,
 				078C35451921758600354453 /* ios_simple_form_simple_formTests.xctest */,
 			);
 			name = Products;
@@ -566,8 +566,8 @@
 		9A93B74A2846ED0F005ACD11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A93B7502846ED0F005ACD11 /* libapp_simple_form.dylib */,
-				9A93B7522846ED0F005ACD11 /* libios_app_simple_form.a */,
+				9A93B7502846ED0F005ACD11 /* libca2_lowluds_ai_form.dylib */,
+				9A93B7522846ED0F005ACD11 /* libios_ca2_lowluds_ai_form.a */,
 				9A93B7542846ED0F005ACD11 /* app_core_hellomultiverse_iosTests.xctest */,
 			);
 			name = Products;
@@ -646,9 +646,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		078C352E1921758500354453 /* _ios_app_simple_form */ = {
+		078C352E1921758500354453 /* _ios_ca2_lowluds_ai_form */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 078C35741921758600354453 /* Build configuration list for PBXNativeTarget "_ios_app_simple_form" */;
+			buildConfigurationList = 078C35741921758600354453 /* Build configuration list for PBXNativeTarget "_ios_ca2_lowluds_ai_form" */;
 			buildPhases = (
 				078C352B1921758500354453 /* Sources */,
 				078C352C1921758500354453 /* Frameworks */,
@@ -667,9 +667,9 @@
 				9AA2EF2F2847D88800A747A1 /* PBXTargetDependency */,
 				9AA2EF332847D88800A747A1 /* PBXTargetDependency */,
 			);
-			name = _ios_app_simple_form;
+			name = _ios_ca2_lowluds_ai_form;
 			productName = wiossimple_form_simple_form;
-			productReference = 078C352F1921758500354453 /* _ios_app_simple_form.app */;
+			productReference = 078C352F1921758500354453 /* _ios_ca2_lowluds_ai_form.app */;
 			productType = "com.apple.product-type.application";
 		};
 		078C35441921758600354453 /* ios_simple_form_simple_formTests */ = {
@@ -719,7 +719,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A5752AC16AAE1D2000CC4EF /* Build configuration list for PBXProject "_ios_app_simple_form" */;
+			buildConfigurationList = 9A5752AC16AAE1D2000CC4EF /* Build configuration list for PBXProject "_ios_ca2_lowluds_ai_form" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -733,7 +733,7 @@
 			projectReferences = (
 				{
 					ProductGroup = 9A93B74A2846ED0F005ACD11 /* Products */;
-					ProjectRef = 9A93B7492846ED0F005ACD11 /* app_simple_form.xcodeproj */;
+					ProjectRef = 9A93B7492846ED0F005ACD11 /* ca2_lowluds_ai_form.xcodeproj */;
 				},
 				{
 					ProductGroup = 9A93B7562846ED10005ACD11 /* Products */;
@@ -770,7 +770,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				078C352E1921758500354453 /* _ios_app_simple_form */,
+				078C352E1921758500354453 /* _ios_ca2_lowluds_ai_form */,
 				078C35441921758600354453 /* ios_simple_form_simple_formTests */,
 			);
 		};
@@ -840,17 +840,17 @@
 			remoteRef = 9A93B7472846ED0F005ACD11 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9A93B7502846ED0F005ACD11 /* libapp_simple_form.dylib */ = {
+		9A93B7502846ED0F005ACD11 /* libca2_lowluds_ai_form.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
-			path = libapp_simple_form.dylib;
+			path = libca2_lowluds_ai_form.dylib;
 			remoteRef = 9A93B74F2846ED0F005ACD11 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9A93B7522846ED0F005ACD11 /* libios_app_simple_form.a */ = {
+		9A93B7522846ED0F005ACD11 /* libios_ca2_lowluds_ai_form.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libios_app_simple_form.a;
+			path = libios_ca2_lowluds_ai_form.a;
 			remoteRef = 9A93B7512846ED0F005ACD11 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -975,7 +975,7 @@
 /* Begin PBXTargetDependency section */
 		078C354A1921758600354453 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 078C352E1921758500354453 /* _ios_app_simple_form */;
+			target = 078C352E1921758500354453 /* _ios_ca2_lowluds_ai_form */;
 			targetProxy = 078C35491921758600354453 /* PBXContainerItemProxy */;
 		};
 		9AA2EF252847D88800A747A1 /* PBXTargetDependency */ = {
@@ -1020,7 +1020,7 @@
 		};
 		9AE0E1622B705E2500D4F550 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ios_app_simple_form;
+			name = ios_ca2_lowluds_ai_form;
 			targetProxy = 9AE0E1612B705E2500D4F550 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1312,7 +1312,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		078C35741921758600354453 /* Build configuration list for PBXNativeTarget "_ios_app_simple_form" */ = {
+		078C35741921758600354453 /* Build configuration list for PBXNativeTarget "_ios_ca2_lowluds_ai_form" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				078C35531921758600354453 /* Debug */,
@@ -1330,7 +1330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A5752AC16AAE1D2000CC4EF /* Build configuration list for PBXProject "_ios_app_simple_form" */ = {
+		9A5752AC16AAE1D2000CC4EF /* Build configuration list for PBXProject "_ios_ca2_lowluds_ai_form" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A5752CE16AAE1D3000CC4EF /* Debug */,

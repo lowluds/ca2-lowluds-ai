@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(_app_simple_form CXX)
+project(_ca2_lowluds_ai_form CXX)
 
 
 
@@ -24,7 +24,7 @@ list(APPEND executable_references
    aura
    axis
    base
-   app_simple_form)
+   ca2_lowluds_ai_form)
 
 if(${LINUX} OR ${__BSD__})
 

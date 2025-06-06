@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "070B8EE91B6E53F900D26137"
-               BuildableName = "_app_simple_form.app"
-               BlueprintName = "_app_simple_form"
-               ReferencedContainer = "container:_app_simple_form.xcodeproj">
+               BuildableName = "_ca2_lowluds_ai_form.app"
+               BlueprintName = "_ca2_lowluds_ai_form"
+               ReferencedContainer = "container:_ca2_lowluds_ai_form.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "070B8EE91B6E53F900D26137"
-            BuildableName = "_app_simple_form.app"
-            BlueprintName = "_app_simple_form"
-            ReferencedContainer = "container:_app_simple_form.xcodeproj">
+            BuildableName = "_ca2_lowluds_ai_form.app"
+            BlueprintName = "_ca2_lowluds_ai_form"
+            ReferencedContainer = "container:_ca2_lowluds_ai_form.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "070B8EE91B6E53F900D26137"
-            BuildableName = "_app_simple_form.app"
-            BlueprintName = "_app_simple_form"
-            ReferencedContainer = "container:_app_simple_form.xcodeproj">
+            BuildableName = "_ca2_lowluds_ai_form.app"
+            BlueprintName = "_ca2_lowluds_ai_form"
+            ReferencedContainer = "container:_ca2_lowluds_ai_form.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,11 +4,11 @@
 #include "base/user/form/impact.h"
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_FORM form :
+   class CLASS_DECL_CA2_LOWLUDS_AI_FORM form :
       virtual public ::user::form_impact
    {
    public:

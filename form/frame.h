@@ -4,11 +4,11 @@
 #include "base/user/simple/frame_window.h"
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_FORM frame :
+   class CLASS_DECL_CA2_LOWLUDS_AI_FORM frame :
       virtual public simple_frame_window
    {
    public:

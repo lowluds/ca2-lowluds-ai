@@ -23,8 +23,8 @@
     <Keyword>Android</Keyword>
     <ApplicationType>Android</ApplicationType>
     <ApplicationTypeRevision>3.0</ApplicationTypeRevision>
-    <ProjectName>impl_app_simple_form</ProjectName>
-    <RootNamespace>impl_app_simple_form</RootNamespace>
+    <ProjectName>impl_ca2_lowluds_ai_form</ProjectName>
+    <RootNamespace>impl_ca2_lowluds_ai_form</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -256,7 +256,7 @@
     <ProjectReference Include="..\..\..\app\imaging_freeimage\nord_imaging_freeimage.vcxproj">
       <Project>{3c4a93d3-9b9b-4ea9-8bcf-a53be3a0f9b5}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\nord_app_simple_form.vcxproj">
+    <ProjectReference Include="..\nord_ca2_lowluds_ai_form.vcxproj">
       <Project>{85dd443e-1930-4c2d-a917-200e09d871e8}</Project>
     </ProjectReference>
   </ItemGroup>

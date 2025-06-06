@@ -48,7 +48,7 @@
 		9AC01EB82748E274006BEBCC /* form.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AC01EB22748E273006BEBCC /* form.cpp */; };
 		9AC01EB92748E274006BEBCC /* form.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC01EB32748E274006BEBCC /* form.h */; };
 		9AC01EBA2748E274006BEBCC /* form_002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AC01EB42748E274006BEBCC /* form_002.cpp */; };
-		9AE24EA11904CFFD001AEFFB /* libios_app_simple_form.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24E8A1904CFFD001AEFFB /* libios_app_simple_form.a */; };
+		9AE24EA11904CFFD001AEFFB /* libios_ca2_lowluds_ai_form.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24E8A1904CFFD001AEFFB /* libios_ca2_lowluds_ai_form.a */; };
 		9AE24EA71904CFFD001AEFFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AE24EA51904CFFD001AEFFB /* InfoPlist.strings */; };
 		9AEB75DD16F78E600085103B /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEB75BE16F78E600085103B /* framework.cpp */; };
 		9AEB75DE16F78E600085103B /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEB75BF16F78E600085103B /* framework.h */; };
@@ -124,11 +124,11 @@
 		9AC01EB22748E273006BEBCC /* form.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = form.cpp; sourceTree = "<group>"; };
 		9AC01EB32748E274006BEBCC /* form.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = form.h; sourceTree = "<group>"; };
 		9AC01EB42748E274006BEBCC /* form_002.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = form_002.cpp; sourceTree = "<group>"; };
-		9AE24E8A1904CFFD001AEFFB /* libios_app_simple_form.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios_app_simple_form.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE24E8A1904CFFD001AEFFB /* libios_ca2_lowluds_ai_form.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios_ca2_lowluds_ai_form.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE24E991904CFFD001AEFFB /* app_core_hellomultiverse_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app_core_hellomultiverse_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE24EA41904CFFD001AEFFB /* app_core_hellomultiverse_iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "app_core_hellomultiverse_iosTests-Info.plist"; sourceTree = "<group>"; };
 		9AE24EA61904CFFD001AEFFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9AEB75A316F78DF10085103B /* libapp_simple_form.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libapp_simple_form.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEB75A316F78DF10085103B /* libca2_lowluds_ai_form.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libca2_lowluds_ai_form.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEB75BE16F78E600085103B /* framework.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = framework.cpp; sourceTree = "<group>"; };
 		9AEB75BF16F78E600085103B /* framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE24EA11904CFFD001AEFFB /* libios_app_simple_form.a in Frameworks */,
+				9AE24EA11904CFFD001AEFFB /* libios_ca2_lowluds_ai_form.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +211,8 @@
 		9AEB75A416F78DF10085103B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AEB75A316F78DF10085103B /* libapp_simple_form.dylib */,
-				9AE24E8A1904CFFD001AEFFB /* libios_app_simple_form.a */,
+				9AEB75A316F78DF10085103B /* libca2_lowluds_ai_form.dylib */,
+				9AE24E8A1904CFFD001AEFFB /* libios_ca2_lowluds_ai_form.a */,
 				9AE24E991904CFFD001AEFFB /* app_core_hellomultiverse_iosTests.xctest */,
 			);
 			name = Products;
@@ -276,9 +276,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9AE24E891904CFFD001AEFFB /* ios_app_simple_form */ = {
+		9AE24E891904CFFD001AEFFB /* ios_ca2_lowluds_ai_form */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE24EBA1904CFFD001AEFFB /* Build configuration list for PBXNativeTarget "ios_app_simple_form" */;
+			buildConfigurationList = 9AE24EBA1904CFFD001AEFFB /* Build configuration list for PBXNativeTarget "ios_ca2_lowluds_ai_form" */;
 			buildPhases = (
 				9AE24E861904CFFD001AEFFB /* Sources */,
 			);
@@ -287,9 +287,9 @@
 			dependencies = (
 				9AA2F5E02847E46400A747A1 /* PBXTargetDependency */,
 			);
-			name = ios_app_simple_form;
+			name = ios_ca2_lowluds_ai_form;
 			productName = app_core_hellomultiverse_ios;
-			productReference = 9AE24E8A1904CFFD001AEFFB /* libios_app_simple_form.a */;
+			productReference = 9AE24E8A1904CFFD001AEFFB /* libios_ca2_lowluds_ai_form.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9AE24E981904CFFD001AEFFB /* app_core_hellomultiverse_iosTests */ = {
@@ -310,9 +310,9 @@
 			productReference = 9AE24E991904CFFD001AEFFB /* app_core_hellomultiverse_iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9AEB75A216F78DF10085103B /* app_simple_form */ = {
+		9AEB75A216F78DF10085103B /* ca2_lowluds_ai_form */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AEB75A716F78DF10085103B /* Build configuration list for PBXNativeTarget "app_simple_form" */;
+			buildConfigurationList = 9AEB75A716F78DF10085103B /* Build configuration list for PBXNativeTarget "ca2_lowluds_ai_form" */;
 			buildPhases = (
 				9AEB75A116F78DF10085103B /* Headers */,
 				9AEB759F16F78DF10085103B /* Sources */,
@@ -324,9 +324,9 @@
 			dependencies = (
 				9A42D77A26657DCA0011645D /* PBXTargetDependency */,
 			);
-			name = app_simple_form;
+			name = ca2_lowluds_ai_form;
 			productName = app_core_hellomultiverse;
-			productReference = 9AEB75A316F78DF10085103B /* libapp_simple_form.dylib */;
+			productReference = 9AEB75A316F78DF10085103B /* libca2_lowluds_ai_form.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -344,7 +344,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9AEB759E16F78DF10085103B /* Build configuration list for PBXProject "app_simple_form" */;
+			buildConfigurationList = 9AEB759E16F78DF10085103B /* Build configuration list for PBXProject "ca2_lowluds_ai_form" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -363,8 +363,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				9AEB75A216F78DF10085103B /* app_simple_form */,
-				9AE24E891904CFFD001AEFFB /* ios_app_simple_form */,
+				9AEB75A216F78DF10085103B /* ca2_lowluds_ai_form */,
+				9AE24E891904CFFD001AEFFB /* ios_ca2_lowluds_ai_form */,
 				9AE24E981904CFFD001AEFFB /* app_core_hellomultiverse_iosTests */,
 			);
 		};
@@ -483,7 +483,7 @@
 		};
 		9AE24EA01904CFFD001AEFFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9AE24E891904CFFD001AEFFB /* ios_app_simple_form */;
+			target = 9AE24E891904CFFD001AEFFB /* ios_ca2_lowluds_ai_form */;
 			targetProxy = 9AE24E9F1904CFFD001AEFFB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -817,7 +817,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9AE24EBA1904CFFD001AEFFB /* Build configuration list for PBXNativeTarget "ios_app_simple_form" */ = {
+		9AE24EBA1904CFFD001AEFFB /* Build configuration list for PBXNativeTarget "ios_ca2_lowluds_ai_form" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE24EAA1904CFFD001AEFFB /* Debug */,
@@ -835,7 +835,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AEB759E16F78DF10085103B /* Build configuration list for PBXProject "app_simple_form" */ = {
+		9AEB759E16F78DF10085103B /* Build configuration list for PBXProject "ca2_lowluds_ai_form" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AEB75A516F78DF10085103B /* Debug */,
@@ -844,7 +844,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AEB75A716F78DF10085103B /* Build configuration list for PBXNativeTarget "app_simple_form" */ = {
+		9AEB75A716F78DF10085103B /* Build configuration list for PBXNativeTarget "ca2_lowluds_ai_form" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AEB75A816F78DF10085103B /* Debug */,

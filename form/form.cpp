@@ -5,7 +5,7 @@
 #include "aura/message/user.h"
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 

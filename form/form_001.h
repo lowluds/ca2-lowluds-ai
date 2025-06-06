@@ -4,12 +4,12 @@
 #include "form.h"
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_FORM form_001 :
-      virtual public ::app_simple_form::form
+   class CLASS_DECL_CA2_LOWLUDS_AI_FORM form_001 :
+      virtual public ::ca2_lowluds_ai_form::form
    {
    public:
 

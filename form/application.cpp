@@ -13,15 +13,15 @@
 #include "base/user/user/single_document_template.h"
 
 
-__IMPLEMENT_APPLICATION_RELEASE_TIME(app_simple_form);
-IMPLEMENT_APPLICATION_FACTORY(app_simple_form);
+__IMPLEMENT_APPLICATION_RELEASE_TIME(ca2_lowluds_ai_form);
+IMPLEMENT_APPLICATION_FACTORY(ca2_lowluds_ai_form);
 
 
-namespace app_simple_form
+namespace ca2_lowluds_ai_form
 {
 
 
-   // __IMPLEMENT_APPLICATION_RELEASE_TIME1(app_simple_form));
+   // __IMPLEMENT_APPLICATION_RELEASE_TIME1(ca2_lowluds_ai_form));
 
 
    application::application()
@@ -73,15 +73,15 @@ namespace app_simple_form
 
       //set_local_data();
 
-      factory()->add_factory_item <::app_simple_form::document >();
-      factory()->add_factory_item <::app_simple_form::frame >();
-      factory()->add_factory_item <::app_simple_form::main_frame >();
+      factory()->add_factory_item <::ca2_lowluds_ai_form::document >();
+      factory()->add_factory_item <::ca2_lowluds_ai_form::frame >();
+      factory()->add_factory_item <::ca2_lowluds_ai_form::main_frame >();
       factory()->add_factory_item <::user::button_impact >();
-      factory()->add_factory_item <::app_simple_form::impact >();
-      factory()->add_factory_item <::app_simple_form::main_impact >();
-      factory()->add_factory_item <::app_simple_form::tab_impact >();
-      factory()->add_factory_item <::app_simple_form::form_001 >();
-      factory()->add_factory_item <::app_simple_form::form_002 >();
+      factory()->add_factory_item <::ca2_lowluds_ai_form::impact >();
+      factory()->add_factory_item <::ca2_lowluds_ai_form::main_impact >();
+      factory()->add_factory_item <::ca2_lowluds_ai_form::tab_impact >();
+      factory()->add_factory_item <::ca2_lowluds_ai_form::form_001 >();
+      factory()->add_factory_item <::ca2_lowluds_ai_form::form_002 >();
 
       ::base::application::init_instance();
       add_impact_system("main", __initialize_new ::user::single_document_template(
@@ -201,7 +201,7 @@ namespace app_simple_form
 
 //
 //extern "C"
-//::acme::library * app_simple_form_get_new_library()
+//::acme::library * ca2_lowluds_ai_form_get_new_library()
 //{
 //
 //   return ___new ::apex::single_application_library < ::simple_form::application >("app-simple/form");
@@ -209,6 +209,6 @@ namespace app_simple_form
 //}
 //
 //
-//aura_app aura_app_simple_form("app-simple/form", &app_simple_form_get_new_library);
+//aura_app aura_ca2_lowluds_ai_form("app-simple/form", &ca2_lowluds_ai_form_get_new_library);
 //
 //
