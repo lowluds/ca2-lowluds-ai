@@ -36,9 +36,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B5C52981-89BE-4FAF-937B-764CB2C4CDB7}</ProjectGuid>
-    <RootNamespace>app-simple</RootNamespace>
+    <RootNamespace>ca2-lowluds-ai</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>app_simple_form</ProjectName>
+    <ProjectName>ca2_lowluds_ai_form</ProjectName>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
