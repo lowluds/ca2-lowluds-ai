@@ -1,4 +1,4 @@
-app-simple/app_simple_form
+ca2-lowluds-ai/ca2_lowluds_ai_form
 app/base
 app/axis
 app/aura

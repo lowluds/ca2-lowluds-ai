@@ -203,7 +203,7 @@
     <ProjectReference Include="..\..\..\app\base\base.vcxproj">
       <Project>{a216abd4-26c4-4746-96b3-9d30ed28cf92}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\simple_form.vcxproj">
+    <ProjectReference Include="..\ca2_lowluds_ai_form.vcxproj">
       <Project>{b5c52981-89be-4faf-937b-764cb2c4cdb7}</Project>
     </ProjectReference>
   </ItemGroup>
